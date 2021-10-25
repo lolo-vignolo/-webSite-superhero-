@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Puebas en el authReducer  should shows the default statement  1`] = `
+<authReducer
+  state={
+    Object {
+      "logged": true,
+      "name": "Lorenzo",
+    }
+  }
+/>
+`;

@@ -4,6 +4,10 @@ import { getHeroById } from '../../selectors/getHeroById';
 
 export const HeroScreen = ({history}) => {
 
+    // este useParam es un customHook de react que sirve para obtener informacion de esa lista de 
+    // items que encuentro en el components de mi sitio web. heroId es uno de esos items.
+    //useParam va a extraer los parametros que vayan por el URL.
+
     const {heroId} = useParams();
 
     const hero = useMemo(() =>  getHeroById(heroId), [heroId])

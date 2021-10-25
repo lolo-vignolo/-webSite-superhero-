@@ -8,8 +8,19 @@ import { types } from '../types/types';
 // }
 
 
+// const ejAction = {
+
+//     type : "login",
+//     payload : {
+//         name : "newname",
+//         logged : true or false
+//     }
+// }
+
+
 export const authReducer = (state = {}, action ) => {
    
+
     switch (action.type) {
         case  types.login:
             
@@ -31,3 +42,4 @@ export const authReducer = (state = {}, action ) => {
 
     }
 }
+
