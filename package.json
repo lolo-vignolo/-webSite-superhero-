@@ -39,8 +39,10 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.5",
-    "enzyme-to-json": "^3.6.2"
-  }
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
+  
 }
