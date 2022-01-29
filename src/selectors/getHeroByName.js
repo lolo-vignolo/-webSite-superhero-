@@ -1,11 +1,11 @@
-import React from 'react'
+
 import { heroes } from '../data/heroes'
 
 
-export const getHeroByName = (name) => {
+export const getHeroByName = (name = "") => {
     name = name.toLocaleLowerCase();
 
-    if (name === ""){
+    if (name === 0){
         return []
     }else{
         return heroes.filter(hero=> hero.superhero.toLocaleLowerCase().includes(name))

@@ -21,9 +21,16 @@ export const HeroesApp = () => {
     // en esta forma busco en el local storage el item "user" y le configuro el name que 
     // esta en user, este queda configurado con ese valor el cual va a cambiar solo si cambia 
     // el valor del user.
+
     useEffect(() => {
-        localStorage.setItem("user", JSON.stringify(user))
-    }, [user])
+        if ( !user ) return;
+
+        localStorage.setItem('user', JSON.stringify(user) );
+    }, [ user ])
+
+    // useEffect(() => {
+    //     localStorage.setItem("user", JSON.stringify(user))
+    // }, [user])
    
     return (
         <>

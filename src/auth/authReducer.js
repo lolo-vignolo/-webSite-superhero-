@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { types } from '../types/types';
 
 //estado si el usuario esta autenticado
