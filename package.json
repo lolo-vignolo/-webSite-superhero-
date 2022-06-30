@@ -1,6 +1,6 @@
 {
   "name": "heroes-app",
-  "homepage": "https://lolo-vignolo.github.io/heroes-app",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
